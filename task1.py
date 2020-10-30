@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import *
 
 window = tk.Tk()
+window.title("tk")
 
 entry1 = tk.Entry(window,width = 10)
 entry2 = tk.Entry(window,width = 10)
