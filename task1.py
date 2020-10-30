@@ -10,3 +10,10 @@ entry3 = tk.Entry(window,width = 20)
 label = tk.Label(window,text = "x")
 button = tk.Button(window,text = "=")
 
+entry1.grid(row = 1, column = 1)
+label.grid(row = 1, column = 2)
+entry2.grid(row = 1, column = 3)
+button.grid(row = 1, column = 4)
+entry3.grid(row = 1, column = 5)
+
+window.mainloop()
